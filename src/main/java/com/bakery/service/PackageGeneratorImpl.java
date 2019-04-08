@@ -32,8 +32,8 @@ public class PackageGeneratorImpl implements PackageGenerator {
 
     private void addPacking(List<Packing> packings, Map<Integer, Long> counts, Pack pack) {
         if (counts.get(pack.getProductsInPackage()) != null) {
-            Packing pack1 = new Packing(pack, counts.get(pack.getProductsInPackage()).intValue());
-            packings.add(pack1);
+            Packing packing = new Packing(pack, counts.get(pack.getProductsInPackage()).intValue());
+            packings.add(packing);
         }
     }
 
