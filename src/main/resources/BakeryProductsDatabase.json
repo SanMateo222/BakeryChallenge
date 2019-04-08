@@ -1,0 +1,50 @@
+[
+  {
+    "productName": "Vegemite Scroll",
+    "productCode": "VS5",
+    "availablePacks": [
+      {
+        "productsInPackage": 3,
+        "packagePrice": 6.99
+      },
+      {
+        "productsInPackage": 5,
+        "packagePrice": 8.99
+      }
+    ]
+  },{
+  "productName": "Blueberry Muffin",
+  "productCode": "MB11",
+  "availablePacks": [
+    {
+      "productsInPackage": 2,
+      "packagePrice": 9.95
+    },
+    {
+      "productsInPackage": 5,
+      "packagePrice": 16.95
+    },
+    {
+      "productsInPackage": 8,
+      "packagePrice": 24.95
+    }
+  ]
+},{
+  "productName": "Croissant",
+  "productCode": "CF",
+  "availablePacks": [
+    {
+      "productsInPackage": 3,
+      "packagePrice": 5.95
+    },
+    {
+      "productsInPackage": 5,
+      "packagePrice": 9.95
+    },
+    {
+      "productsInPackage": 9,
+      "packagePrice": 16.99
+    }
+  ]
+}
+]
